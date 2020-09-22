@@ -1,3 +1,9 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
 header {
     display: block;
     background-color: #FFFFFF;
@@ -5,9 +11,13 @@ header {
     font-size: 16px;
     text-transform: uppercase;
     text-align: center;
-    font-weight: bold;
+    font-weight: 900;
     font-family: sans-serif;
     word-spacing: 45px;
+    box-sizing: border-box;
+    border-bottom: #D3D3D3;
+    border-bottom-style: solid;
+    border-width: 2px;
 }
 
 a:link {
@@ -28,4 +38,30 @@ a:hover {
 a:active {
     text-decoration: none;
     color: #000000;
+}
+
+.Logo {
+    align: center;
+    padding: 15px;
+}
+
+nav {
+    padding: 5px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.leftPanel {
+    background: #F4F4F4;
+    border-right-color: #D3D3D3;
+    border-right-style: solid;
+    border-width: 2px;
+}
+
+.rightPanel {
+    background: #F4F4F4;
 }
