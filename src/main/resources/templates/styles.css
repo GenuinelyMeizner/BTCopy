@@ -51,8 +51,7 @@ nav {
 
 .container {
     display: grid;
-    grid-template-columns: 1fr 2fr 1fr;
-    grid-template-rows: 1fr;
+    grid-template-columns: 0.5fr 2fr 0.5fr;
 }
 
 .leftPanel {
@@ -60,8 +59,38 @@ nav {
     border-right-color: #D3D3D3;
     border-right-style: solid;
     border-width: 2px;
+    height: 780px;
 }
 
 .rightPanel {
     background: #F4F4F4;
+    border-left-color: #D3D3D3;
+    border-left-style: solid;
+    border-width: 2px;
+    height: 780px;
+}
+
+.centerPanel {
+    background: #EEEEEE;
+    height: 780px;
+}
+
+.article1 {
+    width: 925px;
+    height: 400px;
+    background: #FFDF4A;
+    margin: 25px auto 25px auto;
+    border-bottom: #D3D3D3;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+}
+
+.article1Headline {
+    font-family: sans-serif;
+    color: #F03228;
+    font-size: 180px;
+    text-transform: uppercase;
+    font-weight: 900;
+    text-align: center;
+
 }
